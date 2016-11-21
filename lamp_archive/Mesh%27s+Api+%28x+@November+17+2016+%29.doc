@@ -1,0 +1,614 @@
+Message-ID: <2051478929.154.1479727259092.JavaMail.daemon@884a8fd92483>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_153_1850397580.1479727259091"
+
+------=_Part_153_1850397580.1479727259091
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Mesh&#39;s Api (x @November 17 2016 )</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Mesh&#39;s Api (x @November 17 2016 )</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"Mesh'sApi(x@November172016)-5.=E8=AE=BE=E5=A4=87=E7=AE=A1=
+=E7=90=86"><span class=3D"nh-number">5.&nbsp;</span><span class=3D"inline-c=
+omment-marker" data-ref=3D"ed696dd4-cc6d-4050-96b8-ccc7805f75ea">=E8=AE=BE=
+=E5=A4=87=E7=AE=A1=E7=90=86</span></h1>
+<h2 id=3D"Mesh'sApi(x@November172016)-5.1.mesh=E5=9C=B0=E5=9D=80=E7=94=B3=
+=E8=AF=B7"><span class=3D"nh-number"><span class=3D"inline-comment-marker" =
+data-ref=3D"93bbb561-3fc1-45f7-9523-a5a7eee2a476">5.1.&nbsp;</span></span><=
+span class=3D"inline-comment-marker" data-ref=3D"93bbb561-3fc1-45f7-9523-a5=
+a7eee2a476">mesh=E5=9C=B0=E5=9D=80=E7=94=B3=E8=AF=B7</span></h2>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th colspan=3D"1" class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+=E6=8E=A5=E5=8F=A3ID
+</div>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+device001
+</div>
+</div></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><span class=3D"inline-comment-mark=
+er" data-ref=3D"57c1294a-362c-4610-b1e8-832f6ea47330">URL</span></td>
+<td class=3D"confluenceTd"><p><span class=3D"inline-comment-marker" data-re=
+f=3D"bcb98f09-5c8a-4ad9-b3b3-741c3d3ceb16">http://qc02.xqopen.com/lam/mesh/=
+{num}/group/{group_id}</span></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E6=96=B9=E5=BC=8F</td>
+<td class=3D"confluenceTd">GET</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E6=8E=A5=E5=8F=A3=E8=AF=B4=E6=98=
+=8E</td>
+<td class=3D"confluenceTd">=E8=8E=B7=E5=8F=96=E7=94=A8=E7=9A=84mesh=E5=9C=
+=B0=E5=9D=80</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E8=AF=B7=E6=B1=82=E5=A4=B4</td>
+<td colspan=3D"1" class=3D"confluenceTd">token</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E8=AF=B7=E6=B1=82</td>
+<td colspan=3D"1" class=3D"confluenceTd"></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E5=93=8D=E5=BA=94</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<thead>
+<tr>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+=E5=8F=82=E6=95=B0
+</div>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+=E7=B1=BB=E5=9E=8B
+</div>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+=E6=98=AF=E5=90=A6=E5=8F=AF=E4=B8=BAnull
+</div>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+=E8=AF=B4=E6=98=8E
+</div>
+</div></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=3D"confluenceTd">mesh</td>
+<td class=3D"confluenceTd">array(mesh=E5=9C=B0=E5=9D=80=E5=88=97=E8=A1=A8)<=
+/td>
+<td class=3D"confluenceTd">=E6=98=AF</td>
+<td class=3D"confluenceTd">=E8=BF=94=E5=9B=9E=E7=9A=84mesh=E5=9C=B0=E5=9D=
+=80</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "status": 0,
+  "msg": {
+    "meshAddr": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "10"
+    ]
+  },
+  "errmsg": ""
+}</pre>=20
+</div>
+</div>
+</div>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"Mesh'sApi(x@November172016)-5.2.=E4=B8=8A=E6=8A=A5=E5=B7=B2=E7=BB=
+=8F=E5=88=86=E9=85=8D=E7=9A=84mesh=E5=9C=B0=E5=9D=80"><span class=3D"nh-num=
+ber">5.2.&nbsp;</span>=E4=B8=8A=E6=8A=A5=E5=B7=B2=E7=BB=8F=E5=88=86=E9=85=
+=8D=E7=9A=84mesh=E5=9C=B0=E5=9D=80</h2>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th colspan=3D"1" class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+=E6=8E=A5=E5=8F=A3ID
+</div>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+<span style=3D"color: rgb(0,0,0);">device002</span>
+</div>
+</div></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">URL</td>
+<td class=3D"confluenceTd"><p><a href=3D"http://qc02.xqopen.com/lam/mesh/gr=
+oup/167/report" class=3D"external-link" rel=3D"nofollow">http://qc02.xqopen=
+.com/lam/mesh/group/167/report</a></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E6=96=B9=E5=BC=8F</td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E6=8E=A5=E5=8F=A3=E8=AF=B4=E6=98=
+=8E</td>
+<td class=3D"confluenceTd">=E4=B8=8A=E6=8A=A5=E5=B7=B2=E5=88=86=E9=85=8D=E7=
+=9A=84mesh=E5=9C=B0=E5=9D=80</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E8=AF=B7=E6=B1=82=E5=A4=B4</td>
+<td colspan=3D"1" class=3D"confluenceTd">token</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E8=AF=B7=E6=B1=82</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<thead>
+<tr>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+=E5=8F=82=E6=95=B0
+</div>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+=E7=B1=BB=E5=9E=8B
+</div>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+=E6=98=AF=E5=90=A6=E5=8F=AF=E4=B8=BAnull
+</div>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+=E8=AF=B4=E6=98=8E
+</div>
+</div></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=3D"confluenceTd">mac</td>
+<td class=3D"confluenceTd">string</td>
+<td class=3D"confluenceTd">=E5=90=A6</td>
+<td class=3D"confluenceTd">=E8=AE=BE=E5=A4=87mac=E5=9C=B0=E5=9D=80</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">meshAddr</td>
+<td class=3D"confluenceTd">int</td>
+<td class=3D"confluenceTd">=E5=90=A6</td>
+<td class=3D"confluenceTd">mesh=E5=9C=B0=E5=9D=80</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p>=E7=A4=BA=E4=BE=8B=EF=BC=9A</p>
+<div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">reportM=
+esh:
+[
+  {
+    "meshAddr": "12",
+    "mac": "12s314"
+  },
+  {
+    "meshAddr": "122",
+    "mac": "123d14"
+  },
+  {
+    "meshAddr": "112",
+    "mac": "123a14"
+  }
+]</pre>=20
+</div>
+</div>
+</div>
+</div></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E5=93=8D=E5=BA=94</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p>=E7=A4=BA=E4=BE=8B=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{"statu=
+s":0,"msg":{},"errmsg":""}</pre>=20
+</div>
+</div>
+<p><span style=3D"color: rgb(0,0,0);"><br></span></p>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"Mesh'sApi(x@November172016)-5.3=E8=AE=BE=E5=A4=87=E5=88=A0=E9=99=
+=A4">5.3=E8=AE=BE=E5=A4=87=E5=88=A0=E9=99=A4</h2>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th colspan=3D"1" class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+=E6=8E=A5=E5=8F=A3ID
+</div>
+</div></th>
+<th class=3D"confluenceTh"><span style=3D"color: rgb(0,0,0);">device003</sp=
+an></th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">URL</td>
+<td class=3D"confluenceTd"><span><a href=3D"http://qc02.xqopen.com/lam/mesh=
+/{num}/group/{group_id" class=3D"external-link" rel=3D"nofollow">http://qc0=
+2.xqopen.com/lam/mesh/</a>device/del</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E6=96=B9=E5=BC=8F</td>
+<td class=3D"confluenceTd"><span>POST</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E6=8E=A5=E5=8F=A3=E8=AF=B4=E6=98=
+=8E</td>
+<td class=3D"confluenceTd"><span>=E4=B8=8A=E6=8A=A5=E8=AE=BE=E5=A4=87=E5=88=
+=A0=E9=99=A4=EF=BC=8C=E5=90=8C=E6=97=B6=E5=88=A0=E9=99=A4=E7=BB=84=E4=B8=AD=
+=E6=8C=87=E5=AE=9Amesh=E7=9A=84=E6=89=80=E6=9C=89=E7=81=AF=E5=85=B7</span><=
+/td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E8=AF=B7=E6=B1=82=E5=A4=B4</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>token</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E8=AF=B7=E6=B1=82</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><span>=E5=8F=82=E6=95=B0</span></th>
+<th class=3D"confluenceTh"><span>=E7=B1=BB=E5=9E=8B</span></th>
+<th class=3D"confluenceTh"><span>=E6=98=AF=E5=90=A6=E5=8F=AF=E4=B8=BAnull</=
+span></th>
+<th class=3D"confluenceTh"><span>=E8=AF=B4=E6=98=8E</span></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">meshAddr</td>
+<td class=3D"confluenceTd">int</td>
+<td class=3D"confluenceTd">=E5=90=A6</td>
+<td class=3D"confluenceTd">mesh=E5=9C=B0=E5=9D=80</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">groupId</td>
+<td class=3D"confluenceTd">int</td>
+<td class=3D"confluenceTd">=E5=90=A6</td>
+<td class=3D"confluenceTd">=E8=AE=BE=E5=A4=87=E6=89=80=E5=9C=A8=E7=BB=84id<=
+/td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">mac</td>
+<td colspan=3D"1" class=3D"confluenceTd">string</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E5=90=A6</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E8=AE=BE=E5=A4=87mac=E5=9C=B0=E5=
+=9D=80</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+    "meshAddr": "4",
+=09"groupId":"167",
+=09"mac":"2c:1B:3C:4D"
+}</pre>=20
+</div>
+</div>
+</div></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E5=93=8D=E5=BA=94</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{"statu=
+s":0,"msg":{},"errmsg":""}</pre>=20
+</div>
+</div>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_153_1850397580.1479727259091--

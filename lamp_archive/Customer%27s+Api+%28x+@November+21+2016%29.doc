@@ -1,0 +1,842 @@
+Message-ID: <1640530983.146.1479727223293.JavaMail.daemon@884a8fd92483>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_145_739853065.1479727223292"
+
+------=_Part_145_739853065.1479727223292
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Customer&#39;s Api (x @November 21 2016)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Customer&#39;s Api (x @November 21 2016)</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"Customer'sApi(x@November212016)-3.=E5=AE=A2=E6=88=B7=E4=
+=BF=A1=E6=81=AF=E7=AE=A1=E7=90=86"><span class=3D"nh-number"><span class=3D=
+"inline-comment-marker" data-ref=3D"f1b7b133-f24d-4092-82c7-b3483ceb980a">3=
+.&nbsp;</span></span><span class=3D"inline-comment-marker" data-ref=3D"f1b7=
+b133-f24d-4092-82c7-b3483ceb980a">=E5=AE=A2=E6=88=B7=E4=BF=A1=E6=81=AF=E7=
+=AE=A1=E7=90=86</span></h1>
+<h2 style=3D"margin-left: 30.0px;" id=3D"Customer'sApi(x@November212016)-3.=
+1.=E6=96=B0=E5=A2=9E=E5=AE=A2=E6=88=B7"><span class=3D"nh-number">3.1. =E6=
+=96=B0=E5=A2=9E</span>=E5=AE=A2=E6=88=B7</h2>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th colspan=3D"1" class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+=E6=8E=A5=E5=8F=A3ID
+</div>
+</div>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+customer001
+</div>
+</div>
+</div></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><span class=3D"inline-comment-mark=
+er" data-ref=3D"826651fc-b663-4e11-bb83-ad1226079b9b">URL</span></td>
+<td class=3D"confluenceTd"><p><a class=3D"external-link" rel=3D"nofollow" h=
+ref=3D"http://qc02.xqopen.com/lam/customer/create">http://qc02.xqopen.com/l=
+am/customer</a></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E6=96=B9=E5=BC=8F</td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E6=8E=A5=E5=8F=A3=E8=AF=B4=E6=98=
+=8E</td>
+<td class=3D"confluenceTd">=E6=96=B0=E5=A2=9E=E5=AE=A2=E6=88=B7</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E8=AF=B7=E6=B1=82=E5=A4=B4</td>
+<td colspan=3D"1" class=3D"confluenceTd">token</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E8=AF=B7=E6=B1=82</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<thead>
+<tr>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+=E5=8F=82=E6=95=B0
+</div>
+</div>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+=E7=B1=BB=E5=9E=8B
+</div>
+</div>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+=E6=98=AF=E5=90=A6=E5=8F=AF=E4=B8=BAnull
+</div>
+</div>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+=E8=AF=B4=E6=98=8E
+</div>
+</div>
+</div></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=3D"confluenceTd">tel</td>
+<td class=3D"confluenceTd">string</td>
+<td class=3D"confluenceTd">=E6=98=AF</td>
+<td class=3D"confluenceTd">=E5=AE=A2=E6=88=B7=E6=89=8B=E6=9C=BA=E5=8F=B7=E7=
+=A0=81</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">name</td>
+<td class=3D"confluenceTd">string</td>
+<td class=3D"confluenceTd">=E6=98=AF</td>
+<td class=3D"confluenceTd">=E5=AE=A2=E6=88=B7=E5=A7=93=E5=90=8D</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">addrs</td>
+<td class=3D"confluenceTd">array (string)</td>
+<td class=3D"confluenceTd">=E6=98=AF</td>
+<td class=3D"confluenceTd">=E9=80=81=E8=B4=A7=E5=9C=B0=E5=9D=80=E5=88=97=E8=
+=A1=A8</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p>=E7=A4=BA=E4=BE=8B=EF=BC=9A</p>
+<div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+    "tel": "13823823490",
+    "name": "909",
+    "addrs": [
+        "wewewe"
+    ]
+}</pre>=20
+</div>
+</div>
+</div>
+</div></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E5=93=8D=E5=BA=94</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+<pre><br></pre>
+<div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+    "status": 0,
+    "msg": {
+        "id": 43,
+        "name": "909",
+        "tel": "13823823490",
+        "addrs": [
+            "wewewe"
+        ],
+        "createTime": "2016-10-26 17:28:56",
+        "updateTime": "0000-00-00 00:00:00",
+        "salesmanId": 3,
+        "salesmanName": "LeeHongWa",
+    },
+    "errmsg": ""
+}</pre>=20
+</div>
+</div>
+</div>
+<p><br></p>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<h2 style=3D"margin-left: 30.0px;" id=3D"Customer'sApi(x@November212016)-3.=
+2.=E7=BC=96=E8=BE=91=E5=AE=A2=E6=88=B7=E4=BF=A1=E6=81=AF"><span class=3D"nh=
+-number">3.2.&nbsp;</span>=E7=BC=96=E8=BE=91=E5=AE=A2=E6=88=B7=E4=BF=A1=E6=
+=81=AF</h2>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th colspan=3D"1" class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+=E6=8E=A5=E5=8F=A3ID
+</div>
+</div>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+customer002
+</div>
+</div>
+</div></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">URL</td>
+<td class=3D"confluenceTd"><p><a href=3D"http://qc02.xqopen.com/lam/custome=
+r/edit" rel=3D"nofollow" class=3D"external-link">http://qc02.xqopen.com/lam=
+/customer/</a>{customer_id}</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E6=96=B9=E5=BC=8F</td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E6=8E=A5=E5=8F=A3=E8=AF=B4=E6=98=
+=8E</td>
+<td class=3D"confluenceTd">=E7=BC=96=E8=BE=91=E5=AE=A2=E6=88=B7=E4=BF=A1=E6=
+=81=AF</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E8=AF=B7=E6=B1=82=E5=A4=B4</td>
+<td colspan=3D"1" class=3D"confluenceTd">token</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E8=AF=B7=E6=B1=82</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+    "tel": "11111622225",
+    "name": "ooodddAAAAA",
+    "addrs": [
+        "erterterttyerty"
+    ]
+}</pre>=20
+</div>
+</div>
+</div></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E5=93=8D=E5=BA=94</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+    "status": 0,
+    "msg": {
+        "id": 37,
+        "name": "ooodddAAAAA",
+        "tel": "11111622225",
+        "addrs": [
+            "erterterttyerty"
+        ],
+        "createTime": "2016-10-26 17:27:07",
+        "updateTime": "2016-11-16 19:45:37"
+    },
+    "errmsg": ""
+}</pre>=20
+</div>
+</div>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 style=3D"margin-left: 30.0px;" id=3D"Customer'sApi(x@November212016)-">=
+<span class=3D"nh-number"><br></span></h2>
+<h2 style=3D"margin-left: 30.0px;" id=3D"Customer'sApi(x@November212016)-3.=
+3.=E8=8E=B7=E5=8F=96=E5=AE=A2=E6=88=B7=E4=BF=A1=E6=81=AF=E5=88=97=E8=A1=A8/=
+=E4=BD=BF=E7=94=A8=E7=94=B5=E8=AF=9D=E6=9F=A5=E8=AF=A2=E5=AE=A2=E6=88=B7=E4=
+=B8=8E=E5=88=86=E9=A1=B5"><span class=3D"nh-number">3.3.&nbsp;</span><span =
+class=3D"inline-comment-marker" data-ref=3D"e40986da-3684-4f34-8d81-426f99a=
+a7256">=E8=8E=B7=E5=8F=96=E5=AE=A2=E6=88=B7=E4=BF=A1=E6=81=AF=E5=88=97=E8=
+=A1=A8 / =E4=BD=BF=E7=94=A8=E7=94=B5=E8=AF=9D=E6=9F=A5=E8=AF=A2=E5=AE=A2=E6=
+=88=B7=E4=B8=8E=E5=88=86=E9=A1=B5</span></h2>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th colspan=3D"1" class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+=E6=8E=A5=E5=8F=A3ID
+</div>
+</div>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+customer003
+</div>
+</div>
+</div></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">URL</td>
+<td class=3D"confluenceTd"><p><a class=3D"external-link" rel=3D"nofollow" h=
+ref=3D"http://qc02.xqopen.com/lam/customer?query=3D19&amp;pageNo=3D1">http:=
+//qc02.xqopen.com/lam/customer?query=3D{query}&amp;pageNo=3D</a>{pageNo}</p=
+></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E6=96=B9=E5=BC=8F</td>
+<td class=3D"confluenceTd">GET</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E6=8E=A5=E5=8F=A3=E8=AF=B4=E6=98=
+=8E</td>
+<td class=3D"confluenceTd">=E8=8E=B7=E5=8F=96=E5=AE=A2=E6=88=B7=E4=BF=A1=E6=
+=81=AF=E5=88=97=E8=A1=A8</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E8=AF=B7=E6=B1=82=E5=A4=B4</td>
+<td colspan=3D"1" class=3D"confluenceTd">token</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E8=AF=B7=E6=B1=82</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><span class=3D"inline-comment-mark=
+er" data-ref=3D"f60adbea-5c36-48e9-8d74-0324c05dc423">=E5=93=8D=E5=BA=94</s=
+pan></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p>{query}: =E5=8F=AF=E9=80=89=EF=BC=8C=E6=9F=A5=E8=AF=A2=E7=94=A8=E6=88=B7=
+=E5=90=8D=E4=BB=BB=E6=84=8F=E5=AD=97=E7=AC=A6=E6=88=96=E7=94=B5=E8=AF=9D=E5=
+=8F=B7=E7=A0=81=E4=BB=BB=E6=84=8F=E4=BD=8D</p>
+<p><span>{pageNo}: =E5=8F=AF=E9=80=89=EF=BC=8C=E9=A1=B5=E7=A0=81</span></p>
+<p><span><br></span></p>
+<p>http://qc02.xqopen.com/lam/customer?query=3D=E6=88=91</p>
+<div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+    "status": 0,
+    "msg": {
+        "more": 0,
+        "customers": [
+            {
+                "id": 51,
+                "name": "=E6=88=91=E7=9A=84=E6=B5=8B=E8=AF=95=E6=96=B0=E5=
+=BB=BA=E5=AE=A2=E6=88=B7"
+            },
+            {
+                "id": 14,
+                "name": "=E6=88=91=E5=8E=BB"
+            }
+        ]
+    },
+    "errmsg": ""
+}</pre>=20
+</div>
+</div>
+</div>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 style=3D"margin-left: 30.0px;" id=3D"Customer'sApi(x@November212016)-3.=
+4.=E8=8E=B7=E5=8F=96=E5=AE=A2=E6=88=B7=E6=8C=87=E5=AE=9Aid=E7=9A=84=E5=AE=
+=A2=E6=88=B7=E4=BF=A1=E6=81=AF"><span class=3D"nh-number">3.4.&nbsp;</span>=
+=E8=8E=B7=E5=8F=96=E5=AE=A2=E6=88=B7=E6=8C=87=E5=AE=9Aid=E7=9A=84=E5=AE=A2=
+=E6=88=B7=E4=BF=A1=E6=81=AF</h2>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th colspan=3D"1" class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+=E6=8E=A5=E5=8F=A3ID
+</div>
+</div>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+customer003
+</div>
+</div>
+</div></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">URL</td>
+<td class=3D"confluenceTd"><p><a class=3D"external-link" rel=3D"nofollow" h=
+ref=3D"http://qc02.xqopen.com/lam/customer?query=3D19&amp;pageNo=3D1">http:=
+//qc02.xqopen.com/lam<span>/customer/{customer_id}?pageNo=3D{pageNo}</span>=
+</a></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E6=96=B9=E5=BC=8F</td>
+<td class=3D"confluenceTd">GET</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E6=8E=A5=E5=8F=A3=E8=AF=B4=E6=98=
+=8E</td>
+<td class=3D"confluenceTd">=E8=8E=B7=E5=8F=96=E5=AE=A2=E6=88=B7=E4=BF=A1=E6=
+=81=AF=E5=88=97=E8=A1=A8</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E8=AF=B7=E6=B1=82=E5=A4=B4</td>
+<td colspan=3D"1" class=3D"confluenceTd">token</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E8=AF=B7=E6=B1=82</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E5=93=8D=E5=BA=94</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"nolink">e.g.:</span></p>
+<p><span class=3D"nolink">http://qc02.xqopen.com/lam/customer/56</span></p>
+<div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+    "status": 0,
+    "msg": {
+        "id": 56,
+        "salesmanId": 108,
+        "salesmanName": "=E5=AE=A2=E6=88=B7D",
+        "name": "=E5=88=98=E5=85=88=E7=94=9F",
+        "tel": "13698547691",
+        "addrs": [
+            "=E5=88=98=E5=85=88=E7=94=9F=E7=9A=84=E4=BD=8F=E5=9D=80"
+        ],
+        "createTime": "2016-11-16 15:00:01",
+        "updateTime": "0000-00-00 00:00:00",
+        "orders": [
+            {
+                "id": 80,
+                "orderNo": "2016111620241323089",
+                "discount": 1,
+                "oddCut": 0,
+                "totalPrice": 199.99,
+                "payStatus": "0",
+                "createTime": "2016-11-16 20:24:13",
+                "updateTime": "2016-11-16 20:24:13",
+                "shippingAddr": "=E9=A9=AC=E5=AE=B6=E9=BE=99=E5=B7=A5=E4=B8=
+=9A=E5=8C=BA",
+                "items": [
+                    {
+                        "qty": 2,
+                        "discount": 1,
+                        "light": {
+                            "id": 42,
+                            "lightNo": "6495375431",
+                            "name": "=E6=B5=8B=E8=AF=95=E5=A4=A7=E7=81=AF",
+                            "groupId": 167,
+                            "price": "199.990",
+                            "image": "http://qc02.xqopen.com/lam/public/upl=
+oad/lights/light_img_582c2c6a00c10.jpg",
+                            "status": 0,
+                            "createTime": "2016-11-12 17:37:12",
+                            "updateTime": "2016-11-16 17:52:43"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 78,
+                "orderNo": "20161116202413230321",
+                "discount": 1,
+                "oddCut": 0,
+                "totalPrice": 199.99,
+                "payStatus": "0",
+                "createTime": "2016-11-16 20:24:13",
+                "updateTime": "2016-11-16 20:24:13",
+                "shippingAddr": "=E9=A9=AC=E5=AE=B6=E9=BE=99=E5=B7=A5=E4=B8=
+=9A=E5=8C=BA",
+                "items": [
+                    {
+                        "qty": 2,
+                        "discount": 1,
+                        "light": {
+                            "id": 42,
+                            "lightNo": "6495375431",
+                            "name": "=E6=B5=8B=E8=AF=95=E5=A4=A7=E7=81=AF",
+                            "groupId": 167,
+                            "price": "199.990",
+                            "image": "http://qc02.xqopen.com/lam/public/upl=
+oad/lights/light_img_582c2c6a00c10.jpg",
+                            "status": 0,
+                            "createTime": "2016-11-12 17:37:12",
+                            "updateTime": "2016-11-16 17:52:43"
+                        }
+                    }
+                ]
+            }
+        ],
+        "more": 0
+    },
+    "errmsg": ""
+}</pre>=20
+</div>
+</div>
+</div>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 style=3D"margin-left: 30.0px;" id=3D"Customer'sApi(x@November212016)-3.=
+4.=E5=AE=A2=E6=88=B7=E4=BF=A1=E6=81=AF=E5=88=A0=E9=99=A4"><span class=3D"nh=
+-number">3.4.&nbsp;</span>=E5=AE=A2=E6=88=B7=E4=BF=A1=E6=81=AF=E5=88=A0=E9=
+=99=A4</h2>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th colspan=3D"1" class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+=E6=8E=A5=E5=8F=A3ID
+</div>
+</div>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+customer004
+</div>
+</div>
+</div></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><span class=3D"inline-comment-mark=
+er" data-ref=3D"58e6c0e5-1765-4d84-be17-2652b87ebddd">URL</span></td>
+<td class=3D"confluenceTd"><p><a rel=3D"nofollow">http://qc02.xqopen.com/la=
+m/customer</a><a rel=3D"nofollow">/{customer_id}</a><a rel=3D"nofollow">/de=
+l</a></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E6=96=B9=E5=BC=8F</td>
+<td class=3D"confluenceTd">GET</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E6=8E=A5=E5=8F=A3=E8=AF=B4=E6=98=
+=8E</td>
+<td class=3D"confluenceTd">=E5=88=A0=E9=99=A4=E5=AE=A2=E6=88=B7</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E8=AF=B7=E6=B1=82=E5=A4=B4</td>
+<td colspan=3D"1" class=3D"confluenceTd">token</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E8=AF=B7=E6=B1=82</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">=E5=93=8D=E5=BA=94</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "status": 0,
+  "msg": {},
+  "errmsg": ""
+}</pre>=20
+</div>
+</div>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_145_739853065.1479727223292--
