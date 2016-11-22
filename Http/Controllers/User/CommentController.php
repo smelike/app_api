@@ -95,7 +95,10 @@ class CommentController extends Controller
         $arr_return = [];
         if ($commentId < $maxCommentId)
         {
-            $update = ['updateTime' => date('Y-m-d H:i:s')];
+            $update = [
+                'status' => 1,
+                'updateTime' => date('Y-m-d H:i:s')
+            ];
             DB::table('comment')->where('id', $commentId)->update($update);
         } else {
             $arr_return = ['errmsg' => '接口参数不正确'];

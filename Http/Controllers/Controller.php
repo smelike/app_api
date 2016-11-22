@@ -192,8 +192,9 @@ class Controller extends BaseController
             return ['status' => 1, 'msg' => $msg, 'errmsg' => 'River - Token 不能为空'];
         }
         $user = DB::table('user')->where('token', $token)->first();
-        if(!$user){
-            return ['status' => 1, 'msg' => $msg, 'errmsg' => '当前用户不存在，请刷新重试'];
+        if(!$user)
+        {
+            return ['status' => 1, 'msg' => $msg, 'errmsg' => '“登录过期，请重新登录”'];
         }
         return $token;
     }

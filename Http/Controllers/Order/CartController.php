@@ -39,9 +39,9 @@ class CartController extends Controller
         {
             if ($customerId == $currentCart->customerId)
             {
-                $this->insertOrUpdateCartDetail($id, $products);
+                $this->insertOrUpdateCartDetail($id, $products, true);
             } else if ($customerId AND empty($currentCart->customerId)) {
-                $this->updateCartCustomerId($request, $id);
+                $this->updateCartCustomerId($customerId, $id);
                 $this->insertOrUpdateCartDetail($id, $products, $update = true);
             } else {
                 $this->outDateCart($request);
@@ -68,6 +68,8 @@ class CartController extends Controller
         {
             $fromCart['customerId'] = $request->input('customerId');
             $fromCart['salesmanId'] = $this->getUserId();
+            $fromCart['createTime'] = date('Y-m-d H:i:s');
+            $fromCart['updateTime'] = date('Y-m-d H:i:s');
             unset($fromCart['id']);
             $new_id = DB::table('cart')->insertGetId($fromCart);
 
@@ -96,7 +98,7 @@ class CartController extends Controller
     {
         if ($cartId AND $customerId)
         {
-            $where = [['id', '=', $cartId], ['status', '=', 0]];
+            $where = [['id', '=', $cartId], ['status', '=', 0], ['updateTime' => date('Y-m-d H:i:s')]];
             return DB::table('cart')->where($where)->update(['customerId' => $customerId]);
         }
     }
@@ -296,7 +298,8 @@ class CartController extends Controller
         $count = DB::table('cart')->where('status', 0)->count();
         $where = 'status = 0';
         $arr_field = array('id', 'customerId', 'updateTime');
-        $carts = $this->pagination($this->_table, $where, $count, $pageNo, $per = 13, $arr_field);
+        $order_by = "`updateTime` desc";
+        $carts = $this->pagination($this->_table, $where, $count, $pageNo, $per = 13, $arr_field, $order_by);
         $rows = $pageNo * $per;
         $arr_return['msg']['more'] = ($carts AND ($count < $rows)) ? 0 : 1;
         foreach($carts as &$cart)
@@ -304,9 +307,7 @@ class CartController extends Controller
             $cart->customer = $this->order_customer($cart->customerId, array('id', 'tel', 'name', 'addrs'));
             unset($cart->customerId);
         }
-
         $arr_return['msg']['carts'] = isset($carts) ? $carts : [];
-
         return $this->responseJson($arr_return);
     }
 

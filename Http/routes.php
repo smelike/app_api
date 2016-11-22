@@ -82,14 +82,13 @@ Route::group(['prefix'=>'lam'], function(){
     // Object - mesh
     Route::get('mesh/{num}/group/{groupId}', 'Lamp\MeshController@get');
     Route::post('mesh/group/{groupId}/report', 'Lamp\MeshController@report');
-    Route::any("mesh/reset", 'Lamp\MeshController@reset');
-    Route::any("mesh/device/del", 'Lamp\MeshController@delDevice');
+    Route::post("mesh/device/del", 'Lamp\MeshController@delDevice');
 
     // Object - comment
-    Route::get('comment/customerId/{customerId}', 'User\CommentController@index');
+    Route::get('comment/customer/{customerId}', 'User\CommentController@index');
     Route::post('comment/update/{commentId}', 'User\CommentController@updateComment');
     Route::get('comment/del/{commentId}', 'User\CommentController@delComment');
-    Route::post('comment/customerId/{customerId}', 'User\CommentController@store');
+    Route::post('comment/customer/{customerId}', 'User\CommentController@store');
 
 
     // Object - Admin
